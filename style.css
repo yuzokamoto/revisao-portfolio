@@ -160,8 +160,3 @@ html body .section-about-time-tag { /* Just to add selector priority */
 .content-data {
     margin-left: auto;
 }
-
-div {
-    display: flex;
-    flex-wrap: wrap;
-}
