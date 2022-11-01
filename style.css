@@ -160,3 +160,32 @@ html body .section-about-time-tag { /* Just to add selector priority */
 .content-data {
     margin-left: auto;
 }
+
+/* ================== Tech Stack (stack.html) ================== */
+
+.section-stack {
+    font-family: 'Poppins', sans-serif;
+    /* 100vh - tamanho header */
+    min-height: calc(100vh - 55px);
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.section-stack h1 {
+    font-size: 36px;
+    color: #42446e;
+    margin: 32px 0;
+}
+
+.section-stack p {
+    font-size: 18px;
+    color: #666666;
+}
+
+.section-stack-icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
