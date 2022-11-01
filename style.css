@@ -1,3 +1,5 @@
+/* ================== GLOBAL ================== */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +15,8 @@ a {
     width: 1200px;
     margin: 0 auto;
 }
+
+/* ================== HEADER ================== */
 
 .header {
     color: #666666;
@@ -59,6 +63,8 @@ a {
     justify-content: space-between;
 }
 
+/* ================== HOME (index.html) ================== */
+
 .section-home {
     /* 100vh - tamanho header */
     min-height: calc(100vh - 55px); 
@@ -82,4 +88,80 @@ a {
 
 .profile-img {
     border-radius: 50%
+}
+
+/* ================== ABOUT ME (about.html) ================== */
+
+.section-about {
+    font-family: 'Poppins', sans-serif;
+    /* 100vh - tamanho header */
+    min-height: calc(100vh - 55px);
+    width: 710px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-about-work-item {
+    height: 75px;
+    border-bottom: 2px solid lightgray;
+}
+
+.section-about-work-item-header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8px;
+}
+
+.section-about-work-item-content {
+    display: flex;
+}
+
+.section-about h1 {
+    font-size: 36px;
+    color: #42446e;
+    margin: 32px 0;
+}
+
+.section-about h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #666666;
+}
+
+html body .section-about-time-tag { /* Just to add selector priority */
+    color: #018c0f;
+    background-color: #d7ffe0;
+    border-radius: 20px;
+    padding: 0 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0px 4px 8px 0px rgba(102,102,102,1);
+}
+
+.section-about p {
+    font-size: 18px;
+    color: #666666;
+}
+
+.section-about span {
+    font-size: 12px;
+    font-weight: 500;
+    color: #a7a7a7;
+}
+
+.content-work {
+    width: 250px;
+}
+
+.content-data {
+    margin-left: auto;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
 }
