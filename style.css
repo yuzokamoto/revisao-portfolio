@@ -178,7 +178,7 @@ html body .section-about-time-tag { /* Just to add selector priority */
     font-family: 'Poppins', sans-serif;
     /* 100vh - tamanho header */
     min-height: calc(100vh - 55px);
-    max-width: 900px;
+    max-width: 850px;
     display: flex;
     flex-direction: column;
     margin-top: 60px;
