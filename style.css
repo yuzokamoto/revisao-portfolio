@@ -57,7 +57,7 @@ a {
 }
 
 .nav-group-page-items a:hover {
-    background-color: lightgrey;
+    background-color: rgb(106, 215, 235);
 }
 
 .nav-group-social-icons {
@@ -78,21 +78,28 @@ a {
 
 .section-home-item {
     flex-grow: 1;
-
     font-family: 'Poppins', sans-serif;
     font-size: 28px;
-    color: #42446e;
+    color: #010105;
     display: flex;
     justify-content: space-between;
 }
 
 .my-name {
-    color: #21a6f0;
+    color: #673b0ff3;
+
 }
+ p {
+    font-size: 20px; 
+ }
+
 
 .profile-img {
-    border-radius: 50%
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
 }
+
 
 /* ================== ABOUT ME (about.html) ================== */
 
@@ -104,11 +111,13 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 .section-about-work-item {
     height: 75px;
     border-bottom: 2px solid lightgray;
+    margin-top: 15px;
 }
 
 .section-about-work-item-header {
@@ -123,7 +132,7 @@ a {
 
 .section-about h1 {
     font-size: 36px;
-    color: #42446e;
+    color: #010105;
     margin: 32px 0;
 }
 
@@ -134,15 +143,13 @@ a {
 }
 
 html body .section-about-time-tag { /* Just to add selector priority */
-    color: #018c0f;
-    background-color: #d7ffe0;
+    color: #0722a8;
+    background-color: #d7f1ff;
     border-radius: 20px;
     padding: 0 18px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     box-shadow: 0px 4px 8px 0px rgba(102,102,102,1);
 }
 
@@ -171,27 +178,36 @@ html body .section-about-time-tag { /* Just to add selector priority */
     font-family: 'Poppins', sans-serif;
     /* 100vh - tamanho header */
     min-height: calc(100vh - 55px);
+    max-width: 900px;
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .section-stack h1 {
     font-size: 36px;
-    color: #42446e;
-    margin: 32px 0;
+    color: #010105;
+    margin: 20px 0;
 }
 
 .section-stack p {
     font-size: 18px;
-    color: #666666;
+    color: #373030;
+    margin-right: 10px;
 }
 
 .section-stack-icons {
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    margin-top: 200px;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.icons-techs{
+    width: 100px;
+    height: 100px;
 }
 
 /* ================== Projects (projects.html) ================== */
@@ -212,7 +228,7 @@ html body .section-about-time-tag { /* Just to add selector priority */
 
 .section-projects h1 {
     font-size: 36px;
-    color: #42446e;
+    color: #010105;
     margin: 32px 0;
 }
 
@@ -256,7 +272,7 @@ html body .section-about-time-tag { /* Just to add selector priority */
 }
 
 .project-card-content .project-card-content-stacks {
-    color: #42446e;
+    color: #010105;
     font-weight: 300;
     font-size: 14px;
     margin-bottom: 16px;
