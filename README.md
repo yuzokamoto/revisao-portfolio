@@ -1,4 +1,4 @@
-# Projeto Portfólio Labenu
+# Portfólio Taís Zimerer
 
 ## Desenvolvido pela turma Ammal A
 
