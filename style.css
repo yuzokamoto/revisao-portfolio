@@ -218,22 +218,21 @@ html body .section-about-time-tag { /* Just to add selector priority */
     min-height: calc(100vh - 55px);
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 
 .section-projects-intro {
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 }
 
 .section-projects h1 {
     font-size: 36px;
     color: #010105;
-    margin: 32px 0;
+    margin: 25px 0;
 }
 
 .section-projects p {
-    font-size: 18px;
+    font-size: 20px;
     color: #666666;
 }
 
@@ -260,14 +259,14 @@ html body .section-about-time-tag { /* Just to add selector priority */
 
 .project-card h2 {
     font-weight: 500;
-    font-size: 28px;
+    font-size: 25px;
     margin-bottom: 8px 0;
 }
 
 .project-card p {
     font-weight: 300;
-    font-size: 18px;
-    margin-top: 16px;
+    font-size: 15px;
+    margin-top: 10px;
     margin-bottom: 16px;
 }
 
@@ -276,6 +275,7 @@ html body .section-about-time-tag { /* Just to add selector priority */
     font-weight: 300;
     font-size: 14px;
     margin-bottom: 16px;
+    
 }
 
 .project-card-content-stacks span {
@@ -287,7 +287,6 @@ html body .section-about-time-tag { /* Just to add selector priority */
     font-weight: 400;
     color: black;
     text-decoration: underline;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -300,4 +299,40 @@ html body .section-about-time-tag { /* Just to add selector priority */
 
 .project-card-links a img {
     margin-right: 10px;
+}
+
+.foto-mundo-da-lua{
+    width: 360px;
+    height: 200px;
+}
+
+.foto-netflix {
+    padding: 5px;
+    border-radius: 8%;
+    width: 360px;
+}
+
+.foto-pokedex {
+    width: 360px;
+    height: 200px;
+}
+
+.foto-to-do-list {
+    width: 360px;
+    height: 240px;
+}
+
+.foto-labook {
+    width: 360px;
+    height: 240px;
+}
+
+h5 {
+    color: red;
+    font-size: 15px;
+}
+
+.foto-labeddit {
+    width: 360px;
+    height: 240px;
 }
